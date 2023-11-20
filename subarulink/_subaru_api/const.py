@@ -124,6 +124,7 @@ API_WINDOW_SUNROOF_STATUS = "windowSunroofStatus"
 
 # Timestamp formats
 API_TIMESTAMP_FMT = "%Y-%m-%dT%H:%M:%S%z"  # "2020-04-25T23:35:55+0000"
+API_TIMESTAMP_FMT = "%Y-%m-%dT%H:%M:%S.%f%z"  # "2023-11-20T13:56:43.000+0000" # ghf we appear to be getting milliseconds now.
 API_VS_TIMESTAMP_FMT = "%Y-%m-%dT%H:%M%z"  # "2020-04-25T23:35+0000"
 API_POSITION_TIMESTAMP_FMT = "%Y-%m-%dT%H:%M:%SZ"  # "2020-04-25T23:35:55Z"
 
